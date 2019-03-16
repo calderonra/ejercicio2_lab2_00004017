@@ -9,14 +9,16 @@
     tools:context=".MainActivity">
 
     <ImageView
+
+        android:id="@+id/columna11"
         android:layout_width="148dp"
         android:layout_height="232dp"
         android:layout_row="0"
         android:layout_column="0"
-        android:layout_gravity=""
         android:src="@mipmap/imagen1" />
 
     <ImageView
+        android:id="@+id/columna21"
         android:layout_width="wrap_content"
         android:layout_height="236dp"
         android:layout_row="0"
@@ -24,6 +26,7 @@
         android:src="@mipmap/imagen3" />
 
     <ImageView
+        android:id="@+id/columna31"
         android:layout_width="wrap_content"
         android:layout_height="232dp"
         android:layout_row="0"
@@ -32,7 +35,7 @@
         android:src="@mipmap/imagen2" />
 
     <ImageView
-
+        android:id="@+id/columna12"
         android:layout_width="150dp"
         android:layout_height="220dp"
         android:layout_row="1"
@@ -40,7 +43,7 @@
         android:src="@mipmap/imagen2" />
 
     <ImageView
-
+        android:id="@+id/columna22"
         android:layout_width="wrap_content"
         android:layout_height="220dp"
 
@@ -51,16 +54,16 @@
         />
 
     <ImageView
-
+        android:id="@+id/columna32"
         android:layout_width="wrap_content"
         android:layout_height="216dp"
         android:layout_row="1"
-
         android:layout_column="2"
         android:layout_gravity="fill_horizontal"
         android:src="@mipmap/imagen3" />
 
     <ImageView
+        android:id="@+id/columna13"
         android:layout_gravity="fill_vertical"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
@@ -70,7 +73,7 @@
         />
 
     <ImageView
-
+        android:id="@+id/columna23"
         android:layout_width="wrap_content"
         android:layout_height="275dp"
         android:layout_row="2"
@@ -80,7 +83,7 @@
         />
 
     <ImageView
-
+        android:id="@+id/columna33"
         android:layout_width="wrap_content"
         android:layout_height="274dp"
         android:layout_row="2"
